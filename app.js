@@ -13,12 +13,12 @@ let cScore = 0
 const images_option = ['rock','paper','cisor']
 
 const Pchoice = (i) =>{
-    Pimg.src = 'assets/'+images_option[i]+'.png'
+    Pimg.src = ''+images_option[i]+'.png'
     Pimg.value = images_option[i]
     compareHands()
 }
 const Cchoice = (i) =>{
-    Cimg.src = 'assets/'+images_option[i]+'.png'
+    Cimg.src = ''+images_option[i]+'.png'
     Cimg.value = images_option[i]
 }
 
