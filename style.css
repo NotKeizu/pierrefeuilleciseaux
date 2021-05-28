@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Pangolin&display=swap');
+body{
+    background-color: rgb(233, 55, 91);
+
+}
+
+.container{
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: 'Pangolin';
+    font-size: 40px;
+}
+.container_header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-family: 'Balsamiq',cursive;
+}
+.container_images{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+}
+.container_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(4, 189, 189);
+    color: white;
+    cursor: pointer;
+
+}
